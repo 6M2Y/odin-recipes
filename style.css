@@ -4,10 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-body
-{
-  
-}
 header,footer
 {
     height: auto;
@@ -62,15 +58,46 @@ article > a:hover
     color: brown;
     background-color: rgb(197, 227, 253);
 }
-
-
 footer
 {
+    clear: both;
     margin-top: 50px;
 }
-
 article>h1{
     text-align: center;
     padding: 10px;
     text-transform:uppercase;
+}
+
+.main-recipe
+{
+    margin-top: 50px;
+}
+.main-recipe-main
+{
+    float: left;
+    width: 40%;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+.main-recipe-main >p
+{
+    margin-bottom: 20px;
+    line-height: 2rem;
+}
+.main-recipe-main ul, 
+.main-recipe-main ul li,
+.main-recipe-main h1, .main-recipe-main >h3
+{
+    margin-bottom: 20px;
+}
+
+.float-recipe
+{
+    float: right;
+    margin-right: 50px;
+}
+.img-p{
+    padding: 15px 0;
 }
