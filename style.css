@@ -1,0 +1,76 @@
+*
+{
+    font-family: sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+  
+}
+header,footer
+{
+    height: auto;
+    background-color: rgb(93, 86, 95);
+    padding: 3%;
+    text-align: center;
+    letter-spacing: .2rem;
+    color: rgb(225, 237, 247);
+}
+.middleInfo
+{
+    background-color: aliceblue;
+    padding: 5%;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+}
+.recipes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    }
+article{
+     margin: 10px;
+    width: 40%;
+    align-self: center;
+    padding: 10px;
+  
+}
+article > img{
+    display: block;
+    width: 75%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a>p{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
+article > a
+{
+    text-decoration: none;
+    text-align: center;
+}
+article > a:hover
+{
+    color: brown;
+    background-color: rgb(197, 227, 253);
+}
+
+
+footer
+{
+    margin-top: 50px;
+}
+
+article>h1{
+    text-align: center;
+    padding: 10px;
+    text-transform:uppercase;
+}
